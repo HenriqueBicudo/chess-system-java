@@ -38,7 +38,9 @@ public class Program {
 					captured.add(capturedPiece);
 				}
 
-			} catch (ChessException e) {
+			}
+			
+			catch (ChessException e) {
 				System.out.println(e.getMessage());
 				sc.nextLine();
 			}
